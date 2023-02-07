@@ -16,7 +16,7 @@ const mongoose=require('mongoose');
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb://localhost:27017/nex',
+mongoose.connect('mongodb+srv://Ajala2508:25081995@cluster0.dvt9htp.mongodb.net/emp?retryWrites=true&w=majority',
 {
     useNewUrlParser:true
 });
